@@ -32,8 +32,7 @@ const Form = () => {
             const docRef = await addDoc(collection(db, "messages"), {
                 name: name,
                 email: email,
-                message: message,
-                date: new Date()
+                message: message
             })
             console.log("Document written with ID: ", docRef.id)
         } catch (e) {

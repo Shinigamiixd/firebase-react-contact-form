@@ -23,7 +23,6 @@ const Messages = () => {
                         <li>{item.name}</li>
                         <li>{item.email}</li>
                         <li>{item.message}</li>
-                        <li>{item.date}</li>
                     </ul>
                 )
             })}
