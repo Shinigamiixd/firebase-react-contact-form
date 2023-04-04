@@ -13,7 +13,7 @@ const Messages = () => {
         }
 
         getData()
-    }, [])
+    })
 
     return (
         <div>
