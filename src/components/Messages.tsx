@@ -17,15 +17,14 @@ const Messages = () => {
 
     return (
         <div>
-            {data.map((item: any, index: number) => {
-                return (
+            {data.map((item: any, index: number) => (
                     <ul key={index}>
                         <li>{item.name}</li>
                         <li>{item.email}</li>
                         <li>{item.message}</li>
                     </ul>
                 )
-            })}
+            )}
         </div>
     )
 }
